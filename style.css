@@ -8,8 +8,14 @@ h1{
     font-size: 60px;
 }
 
+h3{
+    font-weight: 600;
+    color: rgb(15, 194, 218);
+}
+
 p{
     color: dimgrey;
+    font-weight: 400;
    
 }
 
@@ -61,4 +67,60 @@ p{
     padding: 8px 25px
     
 
+}
+
+.my-mission{
+    margin-top: 60px;
+}
+
+.mission-title{
+    display: flex;
+    justify-content: center;
+}
+
+.cards{
+    
+    
+    display: flex;
+    padding-left: 10%;
+    
+    
+}
+.cards{
+    margin-top: 45px;
+  
+}
+.card-items{
+    width: 33%;
+    padding: 20px;
+}
+
+.card-items img{
+    width: 40%;
+}
+
+
+
+.mission{
+    height: 360px;
+    width: 376px;
+    background: rgba(136, 197, 38, 0.185);
+    border-radius: 25px;
+    margin-right: 24px;
+}
+
+.vission{
+    height: 360px;
+    width: 376px;
+    background: rgba(38, 197, 136, 0.185);
+    border-radius: 25px; 
+    margin-right: 24px;
+}
+
+.goals{
+    height: 360px;
+    width: 376px;
+    background: rgba(197, 38, 126, 0.185);
+    border-radius: 25px;
+    margin-right: 24px;
 }
